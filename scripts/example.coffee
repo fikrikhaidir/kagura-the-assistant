@@ -30,6 +30,7 @@ module.exports = (robot) ->
       res.emote ":punch:"
     else
       res.send "#{sapa} juga"
+      res.emote ":girl:"
 
   #
   # lulz = ['lol', 'rofl', 'lmao']
