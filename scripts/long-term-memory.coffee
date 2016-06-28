@@ -4,12 +4,12 @@ module.exports = (robot) ->
 
   robot.respond /kenal (.*) (ndak|gak|ga)(?:\?*|,?)/i,(res) ->
     thing=res.match[1]
-    thing=thing.toLowerCase();
-    if thing is "agil" or "gigil"
+    thing2=thing.toLowerCase();
+    if thing2 is "agil" or "gigil"
       res.reply "Maho yang krebo tu kan ? Playboy tu :confused: si #{thing}"
-    else if thing is "adam" or "dadam"
+    else if thing2 is "adam" or "dadam"
       res.reply "Tukang olshop yang suke lolicon ? takot aku same die, kenak cabuli pulak :confused:"
-    else if thing is "asfar" or "asfat"
+    else if thing2 is "asfar" or "asfat"
       res.reply "Asfar sih, jangan tanya, tak kenal aku. tak terkenal pon :confused:"
     else
       res.reply "/shrug"
