@@ -32,6 +32,10 @@ module.exports = (robot) ->
       res.send "#{sapa} juga"
       res.emote ":girl:"
 
+  robot.hear /dalah|malas aku|eh kau ni|/i, (res) ->
+    res.reply "Maaaaak, merajok"
+    res.emote ":laughing:"
+
   #
   # lulz = ['lol', 'rofl', 'lmao']
   #
