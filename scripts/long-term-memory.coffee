@@ -31,7 +31,7 @@ module.exports = (robot) ->
   robot.hear /haha|lol|wkwkwk|anjay/i,(res)->
     res.send res.random lulz
 
-  robot.respond /kimak|anjing|babi|sial/i,(res) ->
-    maki = res.msg
+  robot.respond /(kimak|anjing|babi|sial)/i,(res) ->
+    maki = res.match[0]
     maki = maki.toLowerCase();
     res.reply "kaula tu yang #{maki} :punch:"
