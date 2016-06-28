@@ -2,7 +2,7 @@ module.exports = (robot) ->
 
   #Orang
 
-  robot.respond /kenal (.*) (ndak|gak|ga)(?:\?*|,?)/i (res) ->
+  robot.respond /kenal (.*) (ndak|gak|ga)(?:\?*|,?)/i,(res) ->
     thing=res.match[1]
     thing=thing.toLowerCase();
     if thing is "agil" or "gigil"
@@ -16,7 +16,7 @@ module.exports = (robot) ->
 
     #Benda
 
-  robot.respond /tau (.*) (ndak|gak|ga)(?:\?*|,?)/i (res) ->
+  robot.respond /tau (.*) (ndak|gak|ga)(?:\?*|,?)/i,(res) ->
     thing=res.match[1]
     thing=thing.toLowerCase();
     if thing is "penis" or "vagina" or "peler" or "pepek" or "puki"
