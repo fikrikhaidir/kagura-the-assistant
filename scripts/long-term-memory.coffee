@@ -34,3 +34,4 @@ module.exports = (robot) ->
   robot.respond /kimak|anjing|babi|sial/i,(res) ->
     maki = res.match[0]
     res.reply "kaula tu yang #{maki} :punch:"
+    res.reply "#{maki}"
