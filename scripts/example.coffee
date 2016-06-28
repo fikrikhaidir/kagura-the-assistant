@@ -23,24 +23,11 @@ module.exports = (robot) ->
   robot.hear /I like pie/i, (res) ->
     res.emote "makes a freshly baked pie"
 
-  robot.hear /hai|hallo|oi|nam/i, (res) ->
-    sapa = res.match[0]
-    if sapa is "nam"
-      res.reply "Apaan nam nam !"
-      res.emote ":punch:"
-    else
-      res.send "#{sapa} juga"
-      res.emote ":girl:"
 
-  robot.hear /dalah|serah|risau|peler/i, (res) ->
-    merajok = res.match[0]
-    if merajok is "peler"
-      res.reply "Mulot minta pelasah"
-    else
-      res.reply "Maaaaak, merajok"
-      res.emote ":laughing:"
 
-  #
+
+
+
   # lulz = ['lol', 'rofl', 'lmao']
   #
   # robot.respond /lulz/i, (res) ->
