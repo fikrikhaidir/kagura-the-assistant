@@ -16,11 +16,11 @@ module.exports = (robot) ->
 
     #Benda
 
-    robot.respond /tau (.*) (ndak|gak|ga)(?:\?*|,?)/i (res) ->
-      thing=res.match[1]
-      thing=thing.toLowerCase();
-      if thing is "penis" or "vagina" or "peler" or "pepek" or "puki"
-        res.reply "Ha, mesum yak teros :punch:"
-      else
-        res.reply "Tak tau, ape tu ? :thinking_face:"
-        res.reply "PS : kate fikri jangan ajarkan yang mesum mesum :innocent:"
+  robot.respond /tau (.*) (ndak|gak|ga)(?:\?*|,?)/i (res) ->
+    thing=res.match[1]
+    thing=thing.toLowerCase();
+    if thing is "penis" or "vagina" or "peler" or "pepek" or "puki"
+      res.reply "Ha, mesum yak teros :punch:"
+    else
+      res.reply "Tak tau, ape tu ? :thinking_face:"
+      res.reply "PS : kate fikri jangan ajarkan yang mesum mesum :innocent:"
