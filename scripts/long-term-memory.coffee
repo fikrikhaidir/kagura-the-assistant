@@ -29,4 +29,8 @@ module.exports = (robot) ->
 
   lulz = ['lol :laughing:','hahaha :laughing:']
   robot.hear /haha|lol|wkwkwk|anjay/i,(res)->
-    res.send res.random lulz 
+    res.send res.random lulz
+
+  robot.respond /kimak|anjing|babi|sial/i,(res) ->
+    maki = res.match[0]
+    res.reply "kaula tu yang #{maki} :punch:"
