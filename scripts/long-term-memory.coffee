@@ -12,7 +12,7 @@ module.exports = (robot) ->
     if thing is "asfar" or "asfat"
       res.reply "Asfar sih, jangan tanya, tak kenal aku. tak terkenal pon :confused:"
     else
-      res.reply '/shrug "ndak kenal, dak terkenal gak kayaknye ~"' 
+      res.reply '/shrug' 
 
     #Benda
 
