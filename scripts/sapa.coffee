@@ -1,5 +1,7 @@
 module.exports = (robot) ->
 
+  #Sapaan
+
   robot.hear /hai|hallo|oi|nam/i, (res) ->
     sapa = res.match[0]
     sapa = sapa.toLowerCase();
@@ -10,6 +12,8 @@ module.exports = (robot) ->
       res.send "#{sapa} juga"
       res.emote ":girl:"
 
+  #maki-makian
+
   robot.hear /dalah|serah|risau|peler/i, (res) ->
     merajok = res.match[0]
     merajok = merajok.toLowerCase();
@@ -19,3 +23,6 @@ module.exports = (robot) ->
     else
       res.reply "Maaaaak, merajok"
       res.emote ":laughing:"
+
+  robot.respond /fikri mane ?/i, (res) ->
+    res.reply "Fikri belom ngoding bagian ini nih" res.emote ":thinking_face:"
