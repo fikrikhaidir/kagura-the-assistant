@@ -25,5 +25,5 @@ module.exports = (robot) ->
       res.emote ":laughing:"
 
   robot.respond /fikri mane/i, (res) ->
-    res.reply "Fikri belom ngoding bagian ini nih"
-    res.emote ":thinking_face:"
+    res.reply "Fikri belom ngoding bagian ini nih :thinking_face:"
+    # res.emote ":thinking_face:"
