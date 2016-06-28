@@ -7,9 +7,9 @@ module.exports = (robot) ->
     thing=thing.toLowerCase();
     if thing is "agil" or "gigil"
       res.reply "Maho yang krebo tu kan ? Playboy tu :confused: si #{thing}"
-    if thing is "adam" or "dadam"
+    else if thing is "adam" or "dadam"
       res.reply "Tukang olshop yang suke lolicon ? takot aku same die, kenak cabuli pulak :confused:"
-    if thing is "asfar" or "asfat"
+    else if thing is "asfar" or "asfat"
       res.reply "Asfar sih, jangan tanya, tak kenal aku. tak terkenal pon :confused:"
     else
       res.reply "/shrug"
