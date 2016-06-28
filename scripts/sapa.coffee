@@ -6,11 +6,9 @@ module.exports = (robot) ->
     sapa = res.match[0]
     sapa = sapa.toLowerCase();
     if sapa is "nam"
-      res.reply "Apaan nam nam !"
-      res.emote ":punch:"
+      res.reply "Apaan nam nam ! :punch:"
     else
-      res.send "#{sapa} juga"
-      res.emote ":girl:"
+      res.send "#{sapa} juga :girl:"
 
   #maki-makian
 
@@ -26,4 +24,3 @@ module.exports = (robot) ->
 
   robot.respond /fikri mane/i, (res) ->
     res.reply "Fikri belom ngoding bagian ini nih :thinking_face:"
-    # res.emote ":thinking_face:"
