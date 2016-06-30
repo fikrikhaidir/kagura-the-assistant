@@ -1,18 +1,4 @@
-# Description:
-#   Which is Better?
-#
-# Dependencies:
-#   None
-#
-# Configuration:
-#   None
-#
-# Commands:
-#   hubot which <text> (better|worse)[?,] <text> or <text>? #polls
-#   hubot who <text> (better|worse)[?,] <text> or <text>? #polls
-#
-# Author:
-#   cpradio
+
 
 uhh_what = [
   "I could tell you, but then I'd have to kill you",

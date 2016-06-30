@@ -10,7 +10,7 @@ module.exports = (robot) ->
     else
       res.send "#{sapa} juga :girl:"
 
-  #maki-makian
+  #ngambek
 
   robot.hear /dalah|serah|risau|peler/i, (res) ->
     merajok = res.match[0]
